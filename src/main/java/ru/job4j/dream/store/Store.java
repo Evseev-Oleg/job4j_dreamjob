@@ -55,4 +55,8 @@ public class Store {
     public Post findById(int id) {
         return posts.get(id);
     }
+
+    public Candidate findByIdForCandidate(int id) {
+        return candidates.get(id);
+    }
 }
